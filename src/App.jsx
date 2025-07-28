@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { useDebounce } from 'react-use'
 import Search from './Components/Search'
-import Spinner from './Components/spinner';
+import Spinner from './Components/Spinner'
 import Moviecard from './Components/Moviecard';
 import { updatesearchcount,trendingmovies} from './appwrite';
 const API_BASE_URL = 'https://api.themoviedb.org/3/keyword/{keyword_id}/movies';
