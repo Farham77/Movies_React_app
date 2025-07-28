@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Spinner = () => {
+const Loader = () => {
   return (
   
 <div role="status">
@@ -14,4 +14,4 @@ const Spinner = () => {
   )
 }
 
-export default Spinner
+export default Loader
