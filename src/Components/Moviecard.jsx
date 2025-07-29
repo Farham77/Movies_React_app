@@ -4,13 +4,13 @@ const Moviecard = ({ movie: { title, vote_average, poster_path, release_date, or
   return (
     <div className='movie-card'>
       <img src={poster_path ? `https://image.tmdb.org/t/p/w500/${poster_path}` :
-        'noposter.png'} alt={title} />
+        'Movies_React_app/noposter.png'} alt={title} />
 
       <div className="mt-4">
         <h3>{title}</h3>
         <div className="content">
           <div className="rating">
-            <img src='star.svg' alt='Star icon' />
+            <img src='Movies_React_app/star.svg' alt='Star icon' />
             <p>{vote_average ?vote_average.toFixed(1):'N/A'}</p>
           </div>
           <span>•</span>
