@@ -5,12 +5,12 @@ import Loader from './Components/Loader';
 import Moviecard from './Components/Moviecard';
 import { updatesearchcount, trendingmovies } from './appwrite';
 const API_BASE_URL = 'https://api.themoviedb.org/3/keyword/{keyword_id}/movies';
-const API_KEY = import.meta.env.VITE_TMDB_API_KEY
+
 const Api_Opitons = {
   method: 'GET',
   headers: {
     accept: 'application/json',
-    Authorization: `Bearer ${API_KEY}`
+    Authorization: `Bearer ${import.meta.env.VITE_TMDB_API_KEY}`
 
   }
 }
