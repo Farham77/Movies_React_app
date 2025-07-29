@@ -81,7 +81,7 @@ const App = () => {
       <div className="wrapper">
         <header>
 
-          <img src="Movies_React_app/hero.png" alt="Banner" />
+          <img src="./hero.png" alt="Banner" />
           <h1>Find the Best <span className="text-gradient">Movies</span> on
             <span className="text-gradient"> NEUTRINO</span>
           </h1>
