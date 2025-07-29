@@ -10,7 +10,7 @@ const Moviecard = ({ movie: { title, vote_average, poster_path, release_date, or
         <h3>{title}</h3>
         <div className="content">
           <div className="rating">
-            <img src='Movies_React_app/star.svg' alt='Star icon' />
+            <img src='./star.svg' alt='Star icon' />
             <p>{vote_average ?vote_average.toFixed(1):'N/A'}</p>
           </div>
           <span>•</span>
